@@ -246,10 +246,6 @@ section {
     padding-left: 18px;
 }
 
-.types-left li::marker {
-    color: #2ead68;
-}
-
 .license-section > h1 {
     margin-bottom: 45px;
     color: #171717;
