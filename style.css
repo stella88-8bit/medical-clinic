@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+section {
+    margin-top: 150px;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -137,4 +141,23 @@ a {
 
 .analysis-card>h1 {
     color: #279A59;
+}
+
+.types {
+    background-color: #272727;
+}
+
+.types-section {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.types-left {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    line-height: 2;
 }
