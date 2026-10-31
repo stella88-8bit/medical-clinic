@@ -342,6 +342,7 @@ section {
     width: 200px;
     height: 30px;
     padding: 20px 25px;
+    border: 1px solid #279a59;
     border-radius: 30px;
 }
 
