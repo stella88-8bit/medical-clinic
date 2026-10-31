@@ -430,7 +430,6 @@ section {
 
 @media (max-width: 500px) {
     .container {
-        width: 100%;
         padding: 0 20px;
     }
 
@@ -438,291 +437,101 @@ section {
         margin-top: 80px;
     }
 
-    .top {
-        display: none;
-    }
-
-    .header {
-        min-height: 70px;
-    }
-
-    .header > a:not(:first-child) {
+    .top,
+    .header > a:not(:first-child),
+    .types-right,
+    .doctor-right {
         display: none;
     }
 
     .header img {
-        display: block;
         max-width: 150px;
-        height: auto;
     }
 
-    .first {
-        margin-top: 35px;
-    }
-
-    .first-section > h1 {
-        margin-bottom: 30px;
-        font-size: 36px;
-    }
-
-    .blcks {
+    .blcks,
+    .flexb,
+    .analyses-grid,
+    .doctor-input {
         flex-direction: column;
-        align-items: stretch;
         gap: 20px;
+    }
+
+    .mrt,
+    .how-to-block,
+    .analysis-card,
+    .doctor-section,
+    #doc,
+    #doctel {
+        width: 100%;
     }
 
     .mrt {
         position: relative;
-        width: 100%;
         min-height: 470px;
         overflow: hidden;
-        padding: 25px 20px;
-        border-radius: 6px;
+    }
+
+    .mrt > img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 70%;
     }
 
     .mrt .flex {
         position: relative;
         z-index: 1;
-        align-items: flex-start;
-        width: 100%;
-        gap: 20px;
-    }
-
-    .first-txt > h1 {
-        margin-bottom: 20px;
-        font-size: 27px;
-    }
-
-    .first-txt > p {
-        max-width: 290px;
-        font-size: 15px;
-        line-height: 1.5;
-    }
-
-    .sale {
-        font-size: 14px;
-        line-height: 1.5;
-    }
-
-    .more {
-        display: inline-block;
-        padding: 12px 30px;
-        font-size: 14px;
-    }
-
-    .mrt > img {
-        position: absolute;
-        right: -15px;
-        bottom: -10px;
-        width: min(75%, 300px);
-        height: auto;
-    }
-
-    .how-to-section > h1,
-    .analyses-section > h2,
-    .license-section > h1 {
-        margin-bottom: 25px;
-        font-size: 34px;
-        line-height: 1.2;
-    }
-
-    .flexb {
-        flex-direction: column;
-        gap: 16px;
-    }
-
-    .how-to-block {
-        width: 100%;
-        min-height: 190px;
-        gap: 24px;
-        padding: 25px;
-        border-radius: 6px;
-        font-size: 15px;
-        line-height: 1.5;
-    }
-
-    .how-to-block > i {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        background-color: #2eae69;
-        color: white;
-        font-size: 30px;
-    }
-
-    .analyses-grid {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 16px;
     }
 
     .analysis-card {
-        width: 100%;
         height: auto;
-        min-height: 220px;
-        gap: 12px;
-        padding: 20px;
-        border-radius: 5px;
-        font-size: 14px;
-    }
-
-    .analysis-card > i {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        background-color: #2eae69;
-        color: white;
-        font-size: 20px;
-    }
-
-    .analysis-card > h1 {
-        font-size: 20px;
     }
 
     .types {
-        padding: 65px 0;
-        color: white;
+        padding: 40px 0;
     }
 
-    .types > .container > h1 {
-        margin-bottom: 25px;
-        padding-top: 0;
-        font-size: 25px;
-        line-height: 1.3;
-    }
-
-    .types-section {
-        display: block;
-        height: auto;
-    }
-
+    .types-section,
     .types-left {
         display: block;
         width: 100%;
-        font-size: 14px;
-        line-height: 1.5;
-    }
-
-    .types-left li {
-        margin-bottom: 12px;
-    }
-
-    .types-right {
-        display: none;
+        height: auto;
     }
 
     .license-img {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
 
     .license-img img {
-        display: block;
         width: 100%;
-        height: auto;
-    }
-
-    .doctor {
-        margin-bottom: 70px;
     }
 
     .doctor-section {
         display: block;
-        width: 100%;
         height: auto;
-        padding: 30px 25px;
-        border-radius: 35px;
     }
 
     .doctor-left {
-        gap: 18px;
         padding: 0;
-    }
-
-    .doctor-left > h1 {
-        font-size: 30px;
-        line-height: 1.2;
-    }
-
-    .doctor-left > p {
-        font-size: 14px;
-        line-height: 1.5;
-    }
-
-    .doctor-left > p:last-child {
-        font-size: 11px;
-    }
-
-    .doctor-input {
-        flex-direction: column;
-        gap: 18px;
     }
 
     .doctor-input .qwer:last-child {
         order: -1;
     }
 
-    .qwer {
-        gap: 8px;
-    }
-
-    .qwer label {
-        font-size: 14px;
-    }
-
-    #doc,
-    #doctel {
-        width: 100%;
-        height: 44px;
-        padding: 10px 18px;
-        border: 0;
-        background-color: #edf1f4;
-    }
-
-    .doc-link {
-        display: block;
-        width: 100%;
-        padding: 14px 20px;
-    }
-
-    .doctor-right {
-        display: none;
-    }
-        .footer {
+    .footer {
         margin-top: 70px;
-        padding: 45px 0;
     }
 
     .footer-section {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 35px 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
 
     .footer-contacts {
         grid-column: 1 / -1;
-    }
-
-    .footer-logo img {
-        width: 150px;
-    }
-
-    .footer-column {
-        gap: 10px;
-    }
-
-    .footer-column h1 {
-        font-size: 15px;
-    }
-
-    .footer-column a {
-        font-size: 13px;
     }
 }
