@@ -161,3 +161,13 @@ section {
     color: white;
     line-height: 2;
 }
+
+.license-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.license-section {
+    padding-bottom: 150px;
+}
